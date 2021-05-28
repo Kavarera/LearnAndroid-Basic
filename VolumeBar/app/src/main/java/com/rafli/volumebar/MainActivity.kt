@@ -67,6 +67,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             if (!isEmptyFields){
                 val volume = inputHeight.toDouble() * inputWidth.toDouble() * inputLength.toDouble()
                 tvResult.text = volume.toString()
+
             }
 
         }
