@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/img_item_photo"
@@ -30,7 +30,8 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="2"
-            tools:text="@string/detail" />
+            tools:text="@string/detail"
+            android:layout_marginBottom="5dp"/>
     </LinearLayout>
 
 </LinearLayout>
