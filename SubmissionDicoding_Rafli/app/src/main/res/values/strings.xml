@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SubmissionDicoding_Rafli</string>
+    <string name="namamakanan">Nama Makanan</string>
+    <string name="detail">Detail</string>
+    <string name="harga">HARGA</string>
+    <string name="share">SHARE</string>
+    <string name="about">About</string>
+    <string name="rafli">Rafli Iskandar Kavarera</string>
+    <string name="makanyuk">MAKAN YUK</string>
+</resources>
