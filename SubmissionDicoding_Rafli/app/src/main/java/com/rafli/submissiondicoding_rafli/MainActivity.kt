@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
         MoveToSelectedFood.putExtra(ClickedFood.FOODDETAIL,food.detail)
         MoveToSelectedFood.putExtra(ClickedFood.FOODPHOTO,food.photo)
         MoveToSelectedFood.putExtra(ClickedFood.FOODPRICE,food.price)
+        MoveToSelectedFood.putExtra(ClickedFood.FOODLINK,food.link)
         startActivity(MoveToSelectedFood)
     }
 

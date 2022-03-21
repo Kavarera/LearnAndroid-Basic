@@ -1,0 +1,7 @@
+package com.rafli.listview1
+
+data class Hero(
+    var photo: Int,
+    var name: String,
+    var description: String
+)

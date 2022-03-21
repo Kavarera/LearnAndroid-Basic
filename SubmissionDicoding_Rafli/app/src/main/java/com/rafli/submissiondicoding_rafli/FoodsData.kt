@@ -10,7 +10,13 @@ object FoodsData {
     "8K - 10K / Pcs",
     "2K/Pcs",
     "8K-15K",
-    "5K-12K")
+    "5K-12K",
+    "2K-5K / Pcs",
+    "10K-15K",
+    "10K-15K",
+    "1K-3K / Pcs",
+    "500-1K / Pcs",
+    "5K - 15K")
 
     private val foodNames= arrayOf("Bakso","Gado Gado",
     "Mie Ayam",
@@ -20,7 +26,13 @@ object FoodsData {
     "Rendang",
     "Sate Ayam",
     "Soto",
-    "Sayur Asem")
+    "Sayur Asem",
+    "Pempek",
+    "Nasi Uduk",
+    "Kerak Telor",
+    "Siomai",
+    "Cilok",
+    "Bubur")
 
 
     private val foodDetails = arrayOf("Bakso atau baso adalah jenis bola daging yang lazim ditemukan pada masakan Indonesia.[2] Bakso umumnya dibuat dari campuran daging sapi giling dan tepung tapioka, tetapi ada juga bakso yang terbuat dari daging ayam, ikan, atau udang bahkan daging kerbau. Dalam penyajiannya, bakso umumnya disajikan panas-panas dengan kuah kaldu sapi bening, dicampur mi, bihun, taoge, tahu, terkadang telur lalu ditaburi bawang goreng dan seledri. Bakso sangat populer dan dapat ditemukan di seluruh Indonesia; dari gerobak pedagang kaki lima hingga restoran besar. Berbagai jenis bakso sekarang banyak ditawarkan dalam bentuk makanan beku yang dijual di pasar swalayan ataupun mal-mal. Irisan bakso dapat juga dijadikan pelengkap jenis makanan lain seperti mi goreng, nasi goreng, atau capcai.\n" +
@@ -62,7 +74,46 @@ object FoodsData {
             "\n" +
             "Di Pulau Jawa sendiri ada banyak ragam sayur asam. Seperti sayur asam ala Jawa Timur yang dikenal memiliki cita rasa cenderung pedas,\n" +
             "\n" +
-            "Jawa Barat, sayur asam Sunda cenderung lebih sedikit isinya dan ciri khas yang menonjol adalah menggunakan kacang tanah yang sudah terkupas. Bukan kacang tanah beserta kulit seperti pada sayur asam Betawi, Semarang, sayur asam dominan dengan rasa pedas dan asam. Beda lagi dengan sayur asam Solo yang rasanya tidak tajam dengan bumbu.")
+            "Jawa Barat, sayur asam Sunda cenderung lebih sedikit isinya dan ciri khas yang menonjol adalah menggunakan kacang tanah yang sudah terkupas. Bukan kacang tanah beserta kulit seperti pada sayur asam Betawi, Semarang, sayur asam dominan dengan rasa pedas dan asam. Beda lagi dengan sayur asam Solo yang rasanya tidak tajam dengan bumbu.",
+    "Pempek atau empek-empek adalah makanan yang terbuat dari daging ikan yang digiling lembut yang dicampur tepung kanji atau tepung sagu, serta komposisi beberapa bahan lain seperti telur, bawang putih yang dihaluskan, penyedap rasa, dan garam. Pempek biasanya disajikan dengan kuah cuka yang memiliki rasa asam, manis, dan pedas. Pempek sering disebut sebagai makanan khas Palembang,[1] meskipun hampir semua daerah di Sumatera Selatan memproduksinya.\n" +
+            "\n" +
+            "Pempek dapat ditemukan dengan mudah di Kota Palembang; ada yang menjualnya di restoran, ada yang di pinggir jalan, dan pula yang dipikul. Pada tahun 1980-an, penjual biasa memikul satu keranjang penuh pempek sambil berjalan kaki berkeliling menjajakan dagangannya.",
+
+            "Nasi uduk atau dalam bahasa Belanda rijst vermengd met onrust van de liefde (disingkat jaloerse rijst) adalah nama makanan yang terbuat dari bahan dasar nasi putih yang diaron dan dikukus dengan santan, serta dibumbui dengan pala, kayu manis, jahe, daun serai dan merica. Makanan ini ditemukan oleh penduduk pulau Jawa sekitar tahun 1910-1924 dan dipopulerkan oleh Hindia Belanda setelahnya. Nasi uduk biasa dihidangkan dengan emping goreng, tahu goreng, telur dadar / telur goreng yang teriris, dan abon kering, tempe, bawang goreng, ayam goreng, timun serta sambal kacang. Makanan ini biasanya lebih sering dijual di pagi hari untuk sarapan dan malam hari untuk makan malam. Pada malam hari, biasanya nasi uduk dijual di pinggir jalan raya di kota-kota besar. Nasi uduk banyak dijual di kota-kota dan berbagai wilayah di Indonesia Selatan, yaitu pulau Jawa, dan cukup sulit untuk ditemukan di pulau Sumatra, Kalimantan, Sulawesi, Papua dan lain-lain. Pada tahun 2018 Masehi makanan ini tercatat memiliki harga antara Rp.12,000 hingga Rp.15,000",
+
+            "Kerak telur adalah makanan asli daerah Jakarta (Betawi), dengan bahan-bahan beras ketan putih, telur ayam atau bebek, ebi (udang kering yang diasinkan) yang disangrai kering ditambah bawang merah goreng, lalu diberi bumbu yang dihaluskan berupa kelapa sangrai, cabai merah, kencur, jahe, merica butiran, garam dan gula pasir. Kerak telor dapat ditemukan pada hari biasa. Anda bisa menemukan kerak telor di sekitar Kota Tua, Jakarta Barat. Menurut sejarah, Kerak Telor sudah ada dari zaman kolonial Belanda, kerak telor diciptakan oleh masyarakat Betawi secara tak sengaja Pada tahun 1970-an .[1]Makanan ini dihidangkan saat pesta dan hajatan besar para pembesar pada masa itu. Semakin bergulirnya waktu, kehadiran kuliner-kuliner barat menggeser pesona kerak telor ini.",
+
+            "Siomai adalah salah satu jenis dim sum. Dalam bahasa Mandarin, makanan ini disebut shaomai, sementara dalam bahasa Kanton disebut siu maai. Dalam dialek Beijing, makanan ini juga ditulis sebagai 燒麥, dan juga dibaca shaomai. Kulit siomai serupa dengan kulit pangsit. Makanan ini konon berasal dari Mongolia Dalam.\n"+
+    "Dalam resep masakan Cina, siomai adalah daging babi cincang yang dibungkus kulit yang tipis dari tepung terigu. Walaupun demikian, siomai juga dibuat dari udang, daging kepiting, atau daging sapi. Siomai dibuat berbentuk silinder, dan di atasnya diberi hiasan seperti telur kepiting, parutan wortel, atau kacang polong. Setelah dimatangkan dengan cara dikukus, siomai dimakan dengan cuka atau kecap asin.",
+
+            "Cilok sebuah makanan khas Jawa Barat yang terbuat dari tapioka yang kenyal dengan tambahan bumbu pelengkap seperti sambal kacang, kecap, dan saus. Cilok bentuknya bulat-bulat seperti bakso, hanya saja berbeda bahan dasarnya. Terdapat telur atau daging cincang di dalamnya, karena terbuat dari bahan dasar tapioka maka cilok terasa kenyal saat dikonsumsi.",
+
+            "Bubur merupakan istilah umum untuk mengacu pada campuran bahan padat dan cair, dengan komposisi cairan yang lebih banyak daripada padatan dan keadaan bahan padatan yang tercerai-berai.[1] Dalam dunia kuliner, bubur adalah jenis makanan yang dimasak dengan cara menggodog bahannya sampai menjadi sangat lunak.[1] Istilah bubur, jika tanpa disebutkan keterangannya, biasanya merujuk pada bubur beras yang dimasak secara sederhana, beras dicuci, dimasukkan ke dalam air yang mendidih, diaduk sampai air mendidih lagi dan berasnya menjadi lunak.[1] Untuk memberi rasa pada bubur, bisa ditambahkan santan kelapa atau parutan kelapa, dan dibuat sesuai selera kekentalannya.[1]\n" +
+            "\n" +
+            "Istilah ini biasa dipakai dalam dunia boga, seperti pada bubur ayam, bubur ketan hitam, atau bubur kacang hijau, bubur ketan.[1]\n" +
+            "\n" +
+            "Istilah bubur juga dipakai dalam bidang lain, pertanian atau biologi misalnya, yaitu bubur bordo (bubur bubur bordeaux): fungisida campuran antara sulfat tembaga (kuprihidroksida) dan kapur (kalium-sulfat), biasanya dicemprotkan pada tanaman yang diserang hama.[1]\n" +
+            "\n" +
+            "Di Sulawesi terdapat bubur tinutuan atau bubur manado yang dibuat dari beras diberi bumbu: garam, daun salam, sereh, daun kemangi, dan ditambah jagung dan ubi merah.[1]\n" +
+            "\n" +
+            "Bubur kanji, bubur beras, bubur nasi atau kadang hanya disebut bubur adalah sejenis hidangan bubur yang dibuat dari beras yang dimasak dengan sejumlah air yang cukup banyak. Hidangan ini populer di sejumlah negara-negara Asia. Bubur kanji ini biasanya dijadikan makanan pokok pengganti nasi. Karena rasanya tawar, biasanya hidangan ini disajikan dengan hidangan pendamping, bumbu, dan saus penambah rasa; misalnya menambahkan suiran daging ayam yaitu sebagai bubur ayam, daging, atau ikan. Kecap asin, garam, merica, kecap manis, dan kadang kaldu ayam ditambahkan untuk menambah citarasa bubur kanji.")
+
+    private val foodLink = arrayOf("https://id.wikipedia.org/wiki/Bakso",
+    "https://id.wikipedia.org/wiki/Gado-gado",
+    "https://id.wikipedia.org/wiki/Mi_ayam",
+    "https://id.wikipedia.org/wiki/Nasi_goreng_(Indonesia)",
+    "https://id.wikipedia.org/wiki/Nasi_Padang",
+    "https://id.wikipedia.org/wiki/Opor_ayam",
+    "https://id.wikipedia.org/wiki/Rendang",
+    "https://id.wikipedia.org/wiki/Sate",
+    "https://id.wikipedia.org/wiki/Soto",
+    "https://id.wikipedia.org/wiki/Sayur_asam",
+    "https://id.wikipedia.org/wiki/Pempek",
+    "https://id.wikipedia.org/wiki/Nasi_uduk",
+    "https://id.wikipedia.org/wiki/Kerak_telor",
+    "https://id.wikipedia.org/wiki/Siomai",
+    "https://id.wikipedia.org/wiki/Cilok",
+    "https://id.wikipedia.org/wiki/Bubur")
 
     private val foodImages = intArrayOf(R.drawable.bakso,
     R.drawable.gadogado,
@@ -73,7 +124,13 @@ object FoodsData {
     R.drawable.rendang,
     R.drawable.sateayam,
     R.drawable.soto,
-    R.drawable.sayurasem)
+    R.drawable.sayurasem,
+    R.drawable.pempek,
+    R.drawable.nasiuduk,
+    R.drawable.keraktelor,
+    R.drawable.siomai,
+    R.drawable.cilok,
+    R.drawable.bubur)
 
     val listData: ArrayList<Food>
         get(){
@@ -84,6 +141,7 @@ object FoodsData {
                 food.detail = foodDetails[posisi]
                 food.photo = foodImages[posisi]
                 food.price = foodPrices[posisi]
+                food.link = foodLink[posisi]
                 list.add(food)
 
             }
